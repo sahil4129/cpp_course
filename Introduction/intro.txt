@@ -1,0 +1,31 @@
+1. Introduction
+	 
+	 a. why c++ 
+	 b. install c++
+	 c. Differernce c++/c
+	 d. Hello world programe
+
+2. c++ basic 
+
+	a. Data types, input/output , operators
+
+3. c++ loops and decision 
+
+4. function programming using c++
+
+5. c++ array and string and pointers
+
+6. Object oriented programming 
+
+7. object and classes
+
+8. virtual function 
+
+9. file handling
+
+10. stl library 
+
+sudo apt install g++
+
+g++ file_name.cpp
+./a.out 
