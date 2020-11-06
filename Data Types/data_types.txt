@@ -1,0 +1,42 @@
+1. Variables:-
+
+   int temp_var = 80;
+   int -> data types     												 
+   temp_var -> variable name											
+   80 -> variable value
+
+
+########################################################################################################################
+                                                             ___________                                               
+                                                            |           |
+                        Variables      					      |	 80 <----|-----> variable value <----> variable name
+   																		   |   Ram	   |         
+   																		   |___________| 		      
+
+#########################################################################################################################  																	
+                                                      
+
+2. C++ Data Types :-
+
+   1. Primitive Data Types: built-in or predefined data types.
+
+      a. Integer -------------------> 4 bytes -------> int  
+      b. Character -----------------> 1 byte  -------> char
+      c. Boolean -------------------> 1 byte  -------> bool (true -> 1 , false -> 0)
+      d. Floating Point ------------> 4 bytes -------> float
+      e. Double Floating Point -----> 8 byte  -------> double
+
+
+   2. Derived Data Types: The data-types that are derived from the primitive data types.
+
+      a. Function --------> int fun()
+      b. Array -----------> int arr
+      c. Pointer ---------> int *temp
+      d. Reference -------> &arr
+      
+
+   3. Abstract or User-Defined Data Types: These data types are defined by user itself.
+
+      a. Class ----------------> class myclass{}
+      b. Structure ------------> struct mystruct
+      c. Enumeration ----------> enum colors{red, black};
