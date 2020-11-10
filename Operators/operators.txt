@@ -1,0 +1,50 @@
+Operators in c++
+
+-----------------------------------------------------------------------------------------------
+
+operator is a symbol that tells the compiler to perform mathematical or logical manipulations.
+
+-----------------------------------------------------------------------------------------------
+
+Operators Types :-
+
+1. Binary Operators -> Need Two operand to use binary operator. ----------->marks = marks + totalsubjects 
+
+2. Unary Operators  -> Need single operand to use unary operator. ---------> marks++ , marks--
+
+
+                                        _____________________________________
+                                        |                                   |
+                                        |        c = a + b ;                |
+                                        |                                   |
+                                        |   (operands) ----> c , a and b    |
+                                        |   (operator) ----> +              |
+                                        |___________________________________|
+
+------------------------------------------------------------------------------------------------------------
+
+Classification of Operators :- 
+
+-------------------------------------------------------------------------------------------------------------
+
+1. Arithmetic Operators:- Arithmetic/Mathematical operations.
+
+    Examples: (+, -, *, /, %,++,–)
+
+2. Relational Operators:- Comparison of the values of two operands.
+
+    Examples: (==, >= , <= , !=) 
+
+3. Logical Operators:- Operation of a logical operator is a boolean value either true or false.
+
+    Examples: ( && , || )
+
+4. Bitwise Operators: Used to perform bit-level operations on the operands.
+
+    Examples: (&, |, ^, <<, >>, ~)
+
+
+Ref link -> https://www.geeksforgeeks.org/operators-c-c/
+
+
+tasks -> binary to decimal and decimal to binary

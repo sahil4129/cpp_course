@@ -1,0 +1,24 @@
+C++ Input Output 
+
+
+--------------------------------------------------------------------------------------
+
+Input and output are performed in the form of a sequence of bytes known as streams.
+
+--------------------------------------------------------------------------------------
+
+
+
+1. Header file -> iostream -> input/output stream  ----> defined inside the std (using namespace std)
+
+2. Basic functions 
+
+    cin -----> used to get input from user using keyboard. ---------> cin>>str
+    cout ----> used to display/output on screen.  ------------------> cout<<str
+
+3. String with spaces 
+
+    getline (cin,var_name) ----> used to get input with spaces -----> getline(cin,str)
+    
+
+Ref links -> https://www.geeksforgeeks.org/basic-input-output-c/

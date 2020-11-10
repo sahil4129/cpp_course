@@ -40,3 +40,6 @@
       a. Class ----------------> class myclass{}
       b. Structure ------------> struct mystruct
       c. Enumeration ----------> enum colors{red, black};
+
+
+Ref link -> https://www.geeksforgeeks.org/c-data-types/
