@@ -1,0 +1,43 @@
+Conversion from Decimal to Binary number system :- 
+
+Binary is the simplest kind of number system that uses only two digits of 0 and 1
+Decimal number is most familiar number system. It is base 10 like 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9.
+
+
+Steps:-
+
+step 1. Take decimal number as dividend.
+step 2. Divide this number by 2 (2 is base of binary so divisor here).
+step 3. Store the remainder in an array (it will be either 0 or 1 because of divisor 2).
+step 4. Repeat the above two steps until the number is greater than zero.
+step 5. Print the array in reverse order.
+
+example :-
+
+Number/2      Number        Remainder
+    72/2   =    36      |       0
+    36/2   =    18      |       0
+    18/2   =    9       |       0
+    9/2    =    4       |       1   
+    4/2    =    2       |       0
+    2/2    =    1       |       0
+    1/2    =    0       |       1       |-----( 100 1000 ) always make pair of 4 bits from end
+
+-----------------------------------------------------------------------------------------------------
+
+
+Conversion from Binary to Decimal number system :- 
+
+Number numbers are type of positional number system. 
+
+for the integer part:- Weight of the positions from right to left are as 2^0, 2^1, 2^2, ....
+for the fractional part :- Weight of the positions from left to right as 2^-1, 2^-2, .....
+
+
+     1     0    0     1     0    0    0
+
+    2^6   2^5  2^4   2^3  2^2   2^1  2^0   =   1*2^6 + 0*2^5 +  0*2^4 + 1*2^3 + 0*2^3 + 0*2^2 + 0*2^1 + 0*2^0
+                                           =    64 + 0 + 0 + 8 + 0 + 0 + 0
+                                           =    72
+
+

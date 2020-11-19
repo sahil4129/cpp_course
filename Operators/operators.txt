@@ -29,7 +29,7 @@ Classification of Operators :-
 
 1. Arithmetic Operators:- Arithmetic/Mathematical operations.
 
-    Examples: (+, -, *, /, %,++,–)
+    Examples: (+, -, *, /, %,++,--)
 
 2. Relational Operators:- Comparison of the values of two operands.
 
@@ -37,7 +37,7 @@ Classification of Operators :-
 
 3. Logical Operators:- Operation of a logical operator is a boolean value either true or false.
 
-    Examples: ( && , || )
+    Examples: ( && , || ,!)
 
 4. Bitwise Operators: Used to perform bit-level operations on the operands.
 

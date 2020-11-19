@@ -1,0 +1,50 @@
+Operators in c++
+
+1. Arithmetic Operators:-
+
+    add             ->      +      (5+7 = 12)
+    subtract        ->      -      (7-5 = 2)
+    divide          ->      /      (4/2 = 2)   
+    multiply        ->      *      (4*2 = 8)
+    modulus         ->      %      ( 4%2 = 0 , 5%4 =1)
+
+2. Relational Operators :-
+
+
+    ==             ->               (5==7 => false)
+    !=             ->               (5!=7 => true)
+    >              ->               (5 > 7 => false)
+    <              ->               (5 < 7 => true)
+    >=,<=          ->               ................
+
+3. Logical Operators:-
+
+    AND            ->       &&      ->   (7<10 && 10 >6 -> true)
+    OR             ->       ||      ->   (7<10 || 10 <6 -> true)
+    Not            ->       !       ->   ( !(7<10 || 10 <6 ) => false)
+
+4. Bitwise Operators:-
+
+Truth Table :-
+
+    a	b	a & b	a | b	a ^ b
+    _____________________________
+    0	0	 0	      0	      0
+    0	1	 0	      1	      1
+    1	1	 1	      1	      0
+    1	0	 0	      1	      1
+
+
+    &            ->    5&9        ->  1
+    |            ->    5|9        ->  13
+    ^            ->    5^9        ->  12
+    ~            ->    ~5         ->  250
+    <<           ->    9<<1       ->  18
+    >>           ->    9>>1       ->  4
+    
+
+    00001001  (shift every bit to left)      |      00001001  ( shift every bit to right)
+                                             |
+                <<1                          |                   >>1 
+                                             |
+    00010010    (after shifting)             |      00000100    (after shifting)
