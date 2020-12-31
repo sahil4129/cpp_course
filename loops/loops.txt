@@ -1,0 +1,47 @@
+C++ Loops
+
+Loops can execute a block of code as long as a specified condition is reached.
+
+Loops Types :-
+
+1. While loop
+2. do - while loop
+3. for loop
+
+ 
+-----------------------------------------------------------------------------------------
+
+1. while loop :-
+
+   while (condition) 
+   {
+
+   	// code block to be executed
+
+   }
+
+
+2. do - while loop :- 
+	
+	do{
+		// code block to be executed
+
+	}while(conditions);
+
+
+
+3. for loop :-
+
+	for (statement 1; statement 2; statement 3) {
+
+  		// code block to be executed
+	}
+
+
+__________________________________________________________________________
+
+
+
+1. break :- break statement can also be used to jump out of a loop. ( break;)
+
+2. continue :- statement breaks one iteration, if a specified condition occurs, and continues with the next iteration (continue;)
