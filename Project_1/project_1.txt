@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------------------------
+
+Project 1 :- Loop based simple Calculator
+
+------------------------------------------- Calculator -------------------------------------------------
+
+Requirements :- What we need
+
+--------------------------------------------------------------------------------------------------------
+
+Data types and variables :-
+
+1. int / float / double      ( for Operands)
+2. char /string              (for Operation)
+
+Four Operation :-
+
+1. Add
+2. Subtract
+3. Multiply
+4. Division
+
+Two Operands :-
+
+1. Operand 1
+2. Operand 2
+
+Loops :-
+
+1. One loop ( for , while , do-while)
+
+
+Conditions :-
+
+1. Add Conditions for loop exections
+2. Add Conditions for different action for different Operations ( if , elseif, if)
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Algorithm - Steps for exections of project
+
+--------------------------------------------------------------------------------------------------------
+
+Steps:-
+
+loop starts -----
+
+Step 1. Take input from user which Operation ( +, -, * , /)
+
+Step 2. Take input from user of Operand 1 and Operand 2
+
+Step 3. Do Operation using Conditions and Operation on Operands......
+
+Step 4. Show Result ......
+
+Step 5. Take input from user for continue calcualtion of not  (Y/N)
+
+Step 6. If Y , then start again from step 1 , loop again running -----
+ 
+Step 7. If N , then exit(return) the programme , loop ends --------
+
+-------------------------------------------------------------------------------------------------------
+
+
