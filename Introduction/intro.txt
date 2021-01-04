@@ -9,7 +9,7 @@
 
 	a. Data types, input/output , operators
 
-3. c++ loops and decision  -------- project calulator using c+++
+3. c++ loops and decision  -------- project calulator using c++
 
 4. function programming using c++
 
