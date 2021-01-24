@@ -1,0 +1,121 @@
+C++ Functions
+
+
+A function is a block of code which only runs when it called .
+
+
+Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Define a function
+******************
+
+return_type  function_name() {  
+
+  	//code to be executed
+}
+
+
+Calling a function
+******************
+
+function_name()
+
+
+
+Functions and Concepts -------------------- just for your knowledge 
+
+1. No Return type functions
+2. Return Type functions 
+3. Parameter functions 
+4. Function overloading
+
+1. No Return type functions :- Means void return type 
+   ************************
+
+	void myFunction() {
+	  cout << "First Function";
+	}
+
+	 myFunction(); // call the function
+
+
+2. Return Type functions :- Return a value of any kind of type data
+   *********************
+
+	int myFunction() {                           // return types :- int , float , double , string , char , objects etc
+ 	 	return 5;
+	}
+
+	cout << myFunction(); ---- output - 5
+
+
+
+
+3. a) Parameter functions:- Parameters are specified after the function name, inside the parentheses
+   	  ********************
+
+
+   	void functionName(parameter1, parameter2, parameter3) {
+
+ 		 // code to be executed
+	}
+
+	functionName(parameter1,parameter2,parameter3)
+
+	---------------------------------------------------------------------------------------------
+
+
+	int functionName(parameter1, parameter2, parameter3) {
+
+  		// code to be executed
+	}
+
+	cout<<functionName(parameter1,parameter2,parameter3)
+
+
+
+3. b) Default Parameter :- Have default parameters values 
+	  ****************
+
+ 	void myFunction(string country = "Norway") {
+
+  		cout << country << "\n";
+	}
+
+	cout<<myFunction() ----------------  Output - Norway
+	cout<<myFunction("Incdia")----------  Output - India
+
+
+
+3. c) Pass by Reference and Pass by Value :- 
+	  ************************************
+
+	//Pass by Value 
+
+	void myFunction(string country) {
+  		cout << country << "\n";          -------------- Value don`t changes outside the function
+	}
+
+
+	--------------------------------------------------------------------------------------------------
+
+	// Pass by Reference
+
+	void myFunction(string &country) {
+  		cout << country << "\n";       ---------------- Value changes outside the function
+	}
+
+
+
+
+4. Function overloading :- multiple functions can have the same name with different parameters
+   ********************
+
+	int myFunction(int x)
+	float myFunction(float x)
+	double myFunction(double x, double y)
