@@ -1,0 +1,62 @@
+C++ Pointers
+
+
+A pointer is a variable whose value is the address of another variable. Like any variable or constant, you must declare a pointer before you can work with it.
+
+
+
+example :-
+
+	data_type *var_name;
+
+	int  var =10;
+	int *ptr2;
+	ptr2 = &var;     -> store address of var 0xbfc401ab
+
+
+
+		int var                 ptr2
+		________		  _______________
+		|	   |		  |				 |
+		|__10__|    ->    |_  0xbfc401ab_|
+
+		0xbfc401ab          *ptr2 -> 10
+
+
+Note :-
+	When used in declaration 	 (int* ptr)     , it creates a pointer variable.
+	When not used in declaration (cout << *ptr) , it act as a dereference operator.
+
+
+Changing Value:-
+	
+	have the same address changes value
+
+	*ptr2 = 12;
+
+	cout<<var -> 12;
+
+
+
+Return pointer from function  :- 
+
+int r;
+
+int * myFunction() {
+
+   return r;
+}
+
+int *result;
+
+
+result= myFunction();
+
+
+
+
+
+Null Pointer -> It is always a good practice to assign the pointer NULL to a pointer variable in case you do not have exact address to 	
+				be assigned. This is done at the time of variable declaration. A pointer that is assigned NULL is called a null pointer.
+
+

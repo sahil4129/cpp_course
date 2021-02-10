@@ -1,0 +1,33 @@
+ Q1. Write a program in C++ to calculate the volume of a cube.
+
+ 	example:-
+
+ 		Input the side of a cube : 5                                          
+ 		The volume of a cube is : 125 
+
+Q2. Write a program in C++ to convert temperature in Celsius to Fahrenheit.
+
+	example:-
+	
+		Enter temperature in Celsius: 37
+		Equivalent Fahrenheit temperature is: 98.6
+
+
+
+Q3. Program to Time Difference :- 
+	Computes time difference of two time period
+
+   	example :- 
+
+		Enter hours, minutes and seconds respectively: 11
+		33
+		52
+
+		Enter stop time.
+		Enter hours, minutes and seconds respectively: 8
+		12
+		15
+
+	output:-
+
+		TIME DIFFERENCE: 11:33:52 - 8:12:15 = 3:21:37

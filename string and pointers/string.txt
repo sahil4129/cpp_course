@@ -1,0 +1,78 @@
+C++ Strings
+
+Strings are objects of inbuilt string class that represent sequences of characters.
+
+are used to store text into  variable
+
+A string variable contains a collection of characters surrounded " "
+
+
+
+
+exmaple :
+
+string str = "My Name";
+
+
+Concatenation - Joining to strings
+
+
+string str1= "My Name";
+String  str2 = "is Rahul";
+
+string str3 = str1+ " "+ str2   -> My name is Rahul
+
+string str4 = str1.append(str2) -> My nameis Rahul
+
+
+Length of string 
+
+cout << str2.length();  -> 8
+
+
+Access by Index
+
+
+cout<<str2[3]          -> R
+
+
+Numbers and String
+
+int x = 10;
+int y = 20;
+int z = x + y;          -> 30 
+
+string x = "10";
+string y = "20";
+string z = x + y;       -> 1020
+
+
+
+Taking Input from user
+
+
+1. Without space
+
+	string str_new
+
+	cin>>str_new  		     -> myname ,   My name
+
+	cout<<str_new		     -> myname ,   My
+
+2. With space 
+
+	string str_new2
+
+	getline (cin, str_new2);  -> myname ,   My name
+
+	cout<<str_new2     		  -> myname ,	My name
+
+ 
+	cin.ignore()              -> require to get input after above input
+
+
+
+Other functions Reference 
+
+1.  https://www.cplusplus.com/reference/string/string/
+2.  https://www.geeksforgeeks.org/stdstring-class-in-c/

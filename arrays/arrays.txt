@@ -1,0 +1,150 @@
+Arrays in C++
+_____________
+
+
+Array in C++ is way to store items stored in contiguous memory locations.
+They are used to store similar type of elements as in the data type must be the same for all elements.
+we can access element by index and index are started from 0,1,2.....
+
+
+Types of Arrays :-
+
+1. One dimensional array
+2. Multi-dimensional array
+
+Access elements :- 
+
+	Array elements are accessed by using an integer index. Array index starts with 0 and goes till size of array minus 1. 
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+1 . One dimensional array :-
+
+	A one-dimensional array is also called a single dimensional array where the elements will be accessed in sequential order.
+
+	Declaration:-
+
+	dataType arrayName[arraySize];
+
+
+	example :-
+
+	int demo_array [];
+
+	int demo_array[4] = {23,24,25,26,27};
+
+	int demo_array[] = {23,24,25,26,27};
+
+	index 	-> 	 0	1   2  3   4                    index = size of array -1
+	element ->	23  24  25 26  27
+
+
+
+	Access elements :- 
+
+	cout<<demo_array[2] -> 25
+
+	cout<<demo_array[5] -> error -> array out of bound
+
+
+	using loop:-
+
+	for (int i = 0; i < 5; ++i) {
+	        cout << demo_array[i] << "  ";                      --> 23,24,25,26,27
+	}
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+Size of array :- 
+
+	size of total array divided by size of one element
+
+	formula  :- sizeof(arr)/sizeof(arr[0]);
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+C++ Array Out of Bounds:-
+
+	If we declare an array of size 10, then the array will contain elements from index 0 to 9.
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+C++ array in stored at contiguous memory locations:-
+
+
+	int demo_array[] = {23,24,25,26,27};
+
+
+	Size of integer in this compiler is 4
+
+
+	Address demo_array[0] is 0x7ffe75c32210   and value is 23
+	Address demo_array[1] is 0x7ffe75c32214	  and value is 24
+	Address demo_array[2] is 0x7ffe75c32218	  and value is 25
+	Address demo_array[3] is 0x7ffe75c3221c   and value is 26
+	Address demo_array[4] is 0x7ffe75c32220   and value is 27
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+2. Multi-dimensional array:-
+
+	When the number of dimensions specified is more than one, then it is called as a multi-dimensional array. Multidimensional arrays include 2D arrays and 3D arrays.
+
+	Declaration:-
+
+	data_type  array_name[size1][size2]....[sizeN];
+
+
+
+	example:-
+
+	int arr_2d[3][2] = {{0,1}, {2,3}, {4,5}}; 
+
+
+
+	Access elements :- 
+
+	cout<<arr_2d[0][1] -> 1
+
+	cout<<arr_2d[4][0] -> error -> array out of bound
+
+	cout<<arr_2d[0][3] -> error -> array out of bound
+
+
+	using loop:-
+
+
+	for (int i = 0; i < 3; i++) { 
+	    for (int j = 0; j < 2; j++) { 
+	        cout << arr_2d[i][j]<<endl; 
+	    } 
+	}
+
+
+-----------------------------------------------------------------------------------------------
+
+Advantages of an Array in C++: 
+
+	Random access of elements using array index.
+	Use of less line of code as it creates a single array of multiple elements.
+	Easy access to all the elements.
+	Traversal through the array becomes easy using a single loop.
+	Sorting becomes easy as it can be accomplished by writing less line of code.
+
+
+Disadvantages of an Array in C++: 
+
+	Allows a fixed number of elements to be entered which is decided at the time of declaration. 
+	Insertion and deletion of elements can be costly since the elements are needed to be managed in accordance with the new memory allocation.
