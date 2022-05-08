@@ -1,0 +1,75 @@
+Object-oriented programming
+
+Uses objects in programming.Object-oriented programming 
+aims to implement real-world entities in programming.
+
+Advantages:- 
+
+    OOP is faster and easier to execute
+    OOP provides a clear structure for the programs
+    OOP helps to keep the C++ code DRY and makes the code easier to maintain.
+    OOP makes it possible to create full reusable applications with less code.
+
+The "Don't Repeat Yourself" (DRY) principle is about reducing the repetition of code.
+
+
+
+
+Main aspects of object-oriented programming:-
+
+
+
+
+1. Class:- 
+
+        The building block of C++ that leads to Object-Oriented programming is a Class. 
+        It is a user-defined data type, which holds its own data members and member functions, 
+        which can be accessed and used by creating an instance of that class. 
+        A class is like a blueprint for an object.
+
+
+2. Object:-    
+
+        An Object is an identifiable entity with some characteristics and behaviour. 
+        An Object is an instance of a Class. When a class is defined, no memory is allocated 
+        but when it is instantiated (i.e. an object is created) memory is allocated.
+        Object take up space in memory and have an associated address like a record
+
+
+3. Inheritance:-
+
+        When one object acquires all the properties and behaviours of parent object i.e. 
+        known as inheritance. It provides code reusability. 
+        It is used to achieve runtime polymorphism. 
+
+
+4. Polymorphism:-  
+
+        When one task is performed by different ways i.e. known as polymorphism. 
+        For example: to convince the customer differently, to draw something e.g. shape or rectangle etc.
+        In C++, we use Function overloading and Function overriding to achieve polymorphism.
+    
+
+5. Abstraction:-   
+
+        Hiding internal details and showing functionality is known as abstraction. 
+        For example: phone call, we don't know the internal processing.
+        In C++, we use abstract class and interface to achieve abstraction.
+
+
+6. Encapsulation:- 
+
+        Binding (or wrapping) code and data together into a single unit is known as encapsulation. 
+        For example: capsule, it is wrapped with different medicines.
+
+
+
+There are 3 types of access modifiers available in C++: 
+
+1. Public       - All the class members declared under the public specifier will be available to everyone.
+
+2. Private      - The class members declared as private can be accessed only by the member functions inside the class. 
+
+3. Protected    - Protected access modifier is similar to private access modifier in the sense that it can’t be accessed
+                  outside of it’s class unless with the help of friend class, the difference is that the class members declared 
+                  as Protected can be accessed by any subclass(derived class) of that class as well.
